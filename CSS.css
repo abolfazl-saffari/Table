@@ -1,0 +1,127 @@
+body {
+    background-image: url("/Images/Mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 162px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    font-family: Roboto,serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #e9e1e1;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+    color: white;
+}
+
+a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #4f4c3d;
+    text-align: center;
+    width: 930px;
+    padding: 10px;
+}
+
+th {
+    height: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+td {
+    height: 40px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+tr {
+    background-color: green;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #101010
+}
+
+tr:nth-child(odd) {
+    background: #38372D
+}
+
+.button1 {
+    display: block;
+    width: 46%;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.button2 {
+    display: block;
+    width: 46%;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: #ff3529;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.button3 {
+    display: block;
+    width: 46%;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
